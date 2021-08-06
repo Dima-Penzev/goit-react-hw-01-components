@@ -1,0 +1,42 @@
+.statistics {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-top: 1px solid black;
+  background-color: lemonchiffon;
+}
+
+.item + .item {
+  border-left: 1px solid black;
+}
+
+.item {
+  width: calc(100% / 3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.label {
+  display: block;
+  text-align: center;
+}
+
+.percentage {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 7px;
+}
